@@ -47,7 +47,7 @@ if(cardsLeft === 0) {
 
 function startTimer() {
     setIsDrawing(true)
-    timerRef.current = setInterval(draw, 100)
+    timerRef.current = setInterval(draw, 1000)
     
 }
 
